@@ -1,0 +1,16 @@
+---
+title: "crimer-vignette"
+author: Fangzhou Xie
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{crimer-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+`crimer` package is written as a thin wrapper around the FBI Crime Data Explorer (CDE).\footnote{
+\url{https://github.com/fbi-cde/crime-data-frontend}
+}
+
+Thie vignette displays some most useful functionalities of this `crimer` package.
